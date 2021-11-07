@@ -1,0 +1,59 @@
+<style>
+title{}
+table, th, td {
+  border: 1px solid yellow;
+  border-collapse: collapse;
+  background: black;
+  color: yellow;
+  font-size:30px;
+}
+
+h1{
+	color:white;
+	border-collapse: collapse;
+	text-align: center;
+	font-family:Lucida Handwriting;
+	text-shadow: 3px 3px 6px yellow;
+}
+
+h2{
+	text-align:center;
+	color:white;
+	font-family:Lucida Handwriting;
+	text-shadow: 3px 3px 6px yellow;
+}
+
+p {
+	color: yellow;
+	font-family:Papyrus;
+	text-indent: 200px;
+	font-size:30px;
+}
+
+h3{
+	text-align:center-left;
+	color: white;
+	font-family:Papyrus;
+	font-size:30px;
+}
+
+body {
+	background:black;
+}
+
+ol {
+	color: yellow;
+	font-size:30px;
+}
+
+img{
+	margin: 25px 150px 75px 1080px;
+	border-radius: 500px;
+	opacity:0.5;
+}
+
+img:hover{
+	opacity: 1.0;
+}
+
+</style>
