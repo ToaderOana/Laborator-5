@@ -1,0 +1,51 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background: green;
+  color: white;
+  font-size:30px;
+  
+  
+}
+h1{
+	color:white;
+	border-collapse: collapse;
+	text-align:center;
+	font-family:Lucida Handwriting;
+	text-shadow: 3px 3px 6px green;
+}
+h2{
+	text-align:center;
+	color:white;
+	font-family:Lucida Handwriting;
+	text-shadow: 3px 3px 6px green;
+}
+p {
+	color: green;
+	font-family:Papyrus;
+	text-indent: 200px;
+	font-size:30px;
+}
+h3{
+	text-align:center-left;
+	color: green;
+	font-family:Papyrus;
+	font-size:30px;
+}
+body {
+	background:beige;
+}
+ol {
+	color: green;
+	font-size:30px;
+}
+img{
+	margin: 25px 150px 75px 1080px;
+	border-radius: 400px;
+	opacity:0.4;
+}
+img:hover{
+	opacity: 1.0;
+}
+</style>

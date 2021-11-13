@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+font-size: 60px;
+}
+h2 
+{
+font-size: 40px;
+}
+p {
+font-size: 30px;
+}
+img { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+#p1 { text-align: center;
+  color: purple;
+  font-family: "Lucida Handwriting";
+  }
+  
+  #p2 {color:purple;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {
+  background-color: beige;
+  }
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+#p12 {color:purple;
+	font-family: "Lucida Console", "Courier New", monospace;
+	}
+  body {
+  background-color: beige;
+  }
+  table, th, td 
+  {
+  border: 1px solid purple;
+}
+#p121 {color:purple;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
+  body {
+  background-color: beige;
+  }
+  table, th, td {
+  border: 1px solid purple;
+}
+#p211 {color:purple;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
+  body {
+  background-color: beige;
+  }
+  table, th, td {
+  border: 1px solid purple;
+}
+#d1 {color:purple;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
+  body {
+  background-color: beige;
+  }
+  table, th, td {
+  border: 1px solid purple;
+}
+table {
+  width: 60%;
+}
+li {
+border-style: outset;
+}
+#rcorners {
+border-radius: 60px;
+height="300"
+}
+</style>
+</head>
+
+<body>
+<h1 id="p1">Toader Oana</h1>
+<button onclick="myFunction()">Alta viata</button>
+<p id="aa" size="50px">Varsta</p>
+<script>
+function myFunction()
+{
+  document.getElementById("p1").innerHTML = "Dr. Ing. Toader Oana";
+  document.getElementById("d1").innerHTML = "Reazlizari pe perioada facultatii";
+  document.getElementById("d2").innerHTML = "Gasirea unui loc de munca in domeniu";
+  document.getElementById("d3").innerHTML = "Promovarea tuturor examenelor";
+  document.getElementById("d4").innerHTML = "Bursa de merit";
+  document.getElementById("d5").innerHTML = "Finalizarea unui intership";
+  document.getElementById("rcorners").src="poza2.jpeg";
+  document.body.style.backgroundColor="pink";
+  document.getElementById("p2").style.color="white";
+  document.getElementById("p12").style.color="white";
+  document.getElementById("p121").style.color="white";
+  document.getElementById("p211").style.color="white";
+  document.getElementById("d1").style.color="white";
+  document.getElementById("p1").style.color="black";
+  document.getElementById("p1").style.fontSize="50px";
+  document.getElementById("rcorners").style.opacity="400%";
+  document.getElementById("rcorners").style.borders="5px";
+	  
+document.getElementById("aa").onmouseover = function() 
+{
+mouseOver();
+};
+document.getElementById("aa").onmouseout = function()
+{
+mouseOut();
+};
+var x=2021;
+var y=2002;
+function mouseOver() 
+{
+  document.getElementById("aa").innerHTML=x-y;
+}
+function mouseOut() {
+  document.getElementById("aa").innerHTML=y;
+}
+
+}
+</script>
+
+<h2 id="p2">Email:</h2>
+<p>oanatoader03@yahoo.com  Nr.tel: 0741 xxx xxx</p>
+<h2 id="p12">Poza:</h2>
+<img id="rcorners" src="poza1.jpeg" alt="Oana"  width="230" >
+<h2 id="p121">Citat reprezentativ:</h2>
+<p>"Scopul educației ar trebui să fie pregătirea 
+unor oameni care să acționeze și să gândească independent, 
+logic și rational și care, în același timp, să vadă în munca depusă 
+realizarea supremă a vieții lor. Doar prin îndeplinirea acesor lucruri, 
+vei fii un om cu o educație excepțională și cu succese multiple"</p>
+<h2 id="p211">Tabel</h2>
+<table>
+  <tr>
+    <th>Disciplina</th>
+    <th>An</th>
+    <th>Descriere</th>
+  </tr>
+ <tr>
+    <td>Grafica asistata de calculator</td>
+    <td>An II</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/15.pdf">Fisa disciplinei</a></td>
+  </tr>
+  <tr>
+    <td>Algebra lineara si geometrie analita diferentiala</td>
+    <td>An I</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/02.pdf">Fisa disciplinei</a></td>
+ </tr>
+   <tr>
+    <td>Componente si circuite pasive</td>
+    <td>An I</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Fisa disciplinei</a></td>
+  </tr>
+ <tr>
+    <td>Televiziune</td>
+    <td>Anul IV</td>
+	<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/45.pdf">Etti Televiziune</a></td>
+ </tr>
+</table>
+<h2 id="d1">Hobby-uri:</h2>
+  <ul>
+  <li id="d2">Programare</li>
+  <li id="d3">Muzica</li>
+  <li id="d4">Dans</li>
+  <li id="d5">Citit</li>
+</ul>
+<p><a href="file:///C:/Users/User/Desktop/Laborator%205/catalog.html">Catalog </a></p>
+</body>
+</html>

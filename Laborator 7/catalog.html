@@ -1,0 +1,75 @@
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <style>
+	.text{
+		font-size: 60px;
+	}
+ </style>
+</head>
+<body>
+<h1 id="p1">Catalog</h1>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="poza1.jpeg" style="width:25%">
+  <div class="text"><a href="file:///C:/Users/User/Desktop/Laborator%205/Pagina%20principala.html" >Toader Oana</a></div>
+</div>
+<div class="mySlides fade">
+  <img src="mihai.jpeg" style="width:25%">
+  <div class="text"><a href="file:///C:/Users/User/Desktop/Laborator%205/pagina%201.html">Procopiu Mihai</a></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="david.jpeg" style="width:35%">
+  <div class="text"><a href="file:///C:/Users/User/Desktop/Laborator%205/pagina%202.html">Hideg David</a></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="dumi.jpeg" style="width:22%">
+  <div class="text"><a href="file:///C:/Users/User/Desktop/Laborator%205/pagina%203.html">Tocaci Dumitrita</a></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() 
+{
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++)
+  {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) 
+		{
+			slideIndex = 1
+		}    
+	for (i = 0; i < dots.length; i++)
+	{
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000);
+}
+</script>
+
+</body>
+</html>
